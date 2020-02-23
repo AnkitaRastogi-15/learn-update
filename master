@@ -1,0 +1,13 @@
+Understanding Iterators in Python:
+
+dummy_Value= '1234567'
+
+for val in dummy_Value:
+  print("For Loop implicitly creating an iterator from  the iterable dummy_Value object and the result is {}".format(val))
+print ("************")
+for val in iter(dummy_Value):
+  print("Explicitly using 'ITER' and the result is {}".format(val))
+
+*****************************************************************************************************************************
+
+So, iterator is an object that contains a countable number of values.
